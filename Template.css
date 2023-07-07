@@ -1,0 +1,92 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.contain {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.image-display {
+    margin-left: 20px;
+    display: flex;
+    max-width: 100%;
+}
+
+.listed-services-layout {
+    display: flex;
+    margin-left: 20px;
+}
+
+.button {
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.button:hover, .button:active,.button:focus {
+    transform: scale(1.3);
+}
+
+#image-writings {
+    display: block;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+body {
+    float: center;
+    margin-right: 200px;
+}
+
+.customer-review {
+    background-color: rgba(41, 124, 128, 0.993);
+    max-width: 100%;
+    margin: 3vh;
+    border-radius: 0.9em;
+    padding: 2em 0.4em;
+}
+
+.star {
+    width: 2vh;
+    justify-content: left;
+    float: left;
+}
+
+#sayings {
+    color: #fff;
+}
+
+.list-faq{
+    max-width: 100%;
+    margin: 3vh;
+    border-radius: 0.9em;
+    padding: 2em 0.4em;
+}
+
+.collapsible-content, .collapsible-content2 {
+    display: none;
+}
+  
+.collapsible-content.show, .collapsible-content2.show {
+    display: block;
+}
+
+p {
+    color: rgb(60, 58, 58);
+}
+
+ul.a {
+    list-style-type: circle;
+  }
+  
